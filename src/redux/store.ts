@@ -1,6 +1,5 @@
-import { createStore } from "@reduxjs/toolkit"
 import currencyReducer from "./currencyReducer"
-
+import { createStore } from "redux"
 
 const store = createStore(currencyReducer);
 
