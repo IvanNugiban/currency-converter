@@ -4,16 +4,15 @@ import ConvertSection from './components/ConvertSection';
 import Footer from './components/Footer';
 
 
-
 function App() {
 
 
 
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
       <Header/>
 
-      <main>
+      <main className="flex-auto bg-neutral-200">
         <ConvertSection/>
       </main>
 

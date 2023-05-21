@@ -1,12 +1,17 @@
 interface ICurrency {
-    testValue: number;
+    symbols: { [key: string]: string; };
+}
+
+interface IConvertedValue {
+    result: number
 }
 
 type CurrencyState = {
-    currency: ICurrency
+    valueToConvert: number,
+    currency: ICurrency,
+    convertableCurrency: string,
+    convertedCurrency: string,
+    convertedValue: number,
+    isLoading: boolean
 }
 
-type CurrencyAction = {
-    type: string,
-    payload?: any
-}

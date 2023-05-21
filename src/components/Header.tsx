@@ -3,7 +3,7 @@ import Logo from "../img/Logo.png";
 
 const Header: React.FC = () => {
   return (
-    <header className="text-white bg-zinc-600">
+    <header className="text-white bg-zinc-600" >
     <div className="container mx-auto py-4 px-6 flex justify-between items-center">
       <div className="flex items-center gap-4">
        
